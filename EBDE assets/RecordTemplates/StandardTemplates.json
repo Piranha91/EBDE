@@ -1,0 +1,281 @@
+{
+  "Gender": "male",
+  "supportedRacess:": "humanoid",
+  "mustHaveAttributes": "",
+  "mustNotHaveAttributes": "",
+  "forceNPCtoUse": "",
+  "forceNPCnotToUse": "",
+  "Records": [
+    {
+      "EBDEUniqueID": "MaleBodyArmor",
+      "Position": "WNAM",
+      "Signature": "ARMO",
+      "Record Flags (sorted)": [
+        "Non-Playable"
+      ],
+      "EditorID": "#fromPermutation",
+      "OBND - Object Bounds": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BOD2 - Biped Body Template": {
+        "First Person Flages (sorted)": [
+          30,
+          32,
+          33,
+          37
+        ],
+        "Armor Type": "Clothing"
+      },
+      "RNAM - Race": "fromRecord",
+      "DATA - Data": {
+        "Value": 0,
+        "Weight": 0
+      },
+      "DNAM - Armor Rating": 0,
+      "Armature":
+      [
+        "EBDEUniqueID|ArmatureTorso",
+        "EBDEUniqueID|ArmatureHands",
+        "EBDEUniqueID|ArmatureFeet"
+      ]
+    },
+    {
+      "EBDEUniqueID": "ArmatureTorso",
+      "Position": "MODL",
+      "Signature": "ARMA",
+      "EditorID": "#fromPermutation|Torso",
+      "BOD2 - Biped Body Template": {
+        "First Person Flages (sorted)": [
+          32,
+          34,
+          35,
+          36,
+          38
+        ],
+        "Armor Type": "clothing"
+      },
+      "RNAM - Race": "DefaultRace",
+      "DNAM - Data": {
+        "Male Priority": 0,
+        "Female Priority": 0,
+        "Weight slider - Male (sorted)": "Enabled",
+        "Weight slider - Female (sorted)": "Enabled",
+        "Unknown": "02 00",
+        "Detection Sound Value": 0,
+        "Unknown": 17,
+        "Weapon Adjust": 0
+      },
+      "Male world model": {
+        "MOD2 - Model FileName": "#fromRecordString|#GENERATED(path|MaleBody_1.NIF)|Actors\\Character\\Character Assets\\MaleBody_1.NIF"
+      },
+      "Female world model": {
+        "MOD3 - Model FileName": "Actors\\Character\\Character Assets\\FemaleBody_1.NIF"
+      },
+      "Male 1st Person": {
+        "MOD4 - Model FileName": "Actors\\Character\\Character Assets\\1stPersonMaleBody_1.NIF"
+      },
+      "Female 1st Person": {
+        "MOD5 - Model FileNamE": "Actors\\Character\\Character Assets\\1stPersonFemaleBody_1.nif"
+      },
+      "NAM0 - Male Skin Texture": "EBDEUniqueID|MaleSkinTexture",
+
+      "NAM1 - Female Skin Texture": "SkinBodyFemale_1",
+      "NAM2 - Male Skin Texture Swap List": "SkinMaleHumanBody",
+      "NAM3 - Female Skin Texture Swap List": "SkinFemaleHumanBody",
+      "Additional Races": "?"
+    },
+    {
+      "EBDEUniqueID": "MaleSkinTextureBody",
+      "Position": "NAM0 - Male Skin Texture",
+      "Signature": "TXST",
+      "OBND - Object Bounds": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Textures (RGB/A)":
+      [
+        ["TX00 - Difuse","#GENERATED(path|malebody_1.dds)"],
+        ["TX01 - Normal/Gloss", "#GENERATED(path|malebody_1_msn.dds)"],
+        ["TX03 - Glow/Detail Map", "#GENERATED(path|malebody_1_sk.dds)"],
+        ["TX07 - Backlight Mask/Specular", "#GENERATED(path|malebody_1_s.dds)"]
+      ],
+      "DNAM - Flags": ["Facegen Textures", "Has Model Space Normal Map"]
+    },
+    {
+      "EBDEUniqueID": "ArmatureHands",
+      "Position": "MODL",
+      "Signature": "ARMA",
+      "EditorID": "#fromPermutation|Hands",
+      "BOD2 - Biped Body Template": {
+        "First Person Flages (sorted)": [
+          33
+        ],
+        "Armor Type": "Clothing"
+      },
+      "RNAM - Race": "DefaultRace",
+      "DNAM - Data": {
+        "Male Priority": 0,
+        "Female Priority": 0,
+        "Weight slider - Male (sorted)": "Enabled",
+        "Weight slider - Female (sorted)": "Enabled",
+        "Unknown": "02 00",
+        "Detection Sound Value": 0,
+        "Unknown": 17,
+        "Weapon Adjust": 0
+      },
+      "Male world model": {
+        "MOD2 - Model FileName": "#fromRecordString|#GENERATED(path|MaleHands_1.NIF)|Actors\\Character\\Character Assets\\MaleHands_1.NIF"
+      },
+      "Female world model": {
+        "MOD3 - Model FileName": "Actors\\Character\\Character Assets\\FemaleHands_1.NIF"
+      },
+      "Male 1st Person": {
+        "MOD4 - Model FileName": "Actors\\Character\\Character Assets\\1stPersonMaleHands_1.NIF"
+      },
+      "Female 1st Person": {
+        "MOD5 - Model FileNamE": "Actors\\Character\\Character Assets\\1stPersonFemaleHands_1.nif"
+      },
+      "NAM0 - Male Skin Texture": "EBDEUniqueID|MaleSkinTexture",
+      "NAM1 - Female Skin Texture": "SkinHandFemale_1",
+      "Additional Races": ""
+    },
+    {
+      "EBDEUniqueID": "MaleSkinTextureHands",
+      "Position": "NAM0 - Male Skin Texture",
+      "Signature": "TXST",
+      "OBND - Object Bounds": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Textures (RGB/A)":
+      [
+        ["TX00 - Difuse","#GENERATED(path|malehands_1.dds)"],
+        ["TX01 - Normal/Gloss", "#GENERATED(path|malehands_1_msn.dds)"],
+        ["TX03 - Glow/Detail Map", "#GENERATED(path|malehands_1_sk.dds)"],
+        ["TX07 - Backlight Mask/Specular", "#GENERATED(path|malehands_1_s.dds)"]
+      ],
+      "DNAM - Flags": ["Facegen Textures", "Has Model Space Normal Map"]
+    },
+    {
+      "EBDEUniqueID": "ArmatureFeet",
+      "Position": "MODL",
+      "Signature": "ARMA",
+      "EditorID": "#fromPermutation|Feet",
+      "BOD2 - Biped Body Template": {
+        "First Person Flages (sorted)": [
+          37
+        ],
+        "Armor Type": "Clothing"
+      },
+      "RNAM - Race": "DefaultRace",
+      "DNAM - Data": {
+        "Male Priority": 0,
+        "Female Priority": 0,
+        "Weight slider - Male (sorted)": "Enabled",
+        "Weight slider - Female (sorted)": "Enabled",
+        "Unknown": "02 00",
+        "Detection Sound Value": 0,
+        "Unknown": 17,
+        "Weapon Adjust": 0
+      },
+      "Male world model": {
+        "MOD2 - Model FileName": "#fromRecordString|#GENERATED(path|MaleFeet_1.NIF)|Actors\\Character\\Character Assets\\MaleFeet_1.NIF"
+      },
+      "Female world model": {
+        "MOD3 - Model FileName": "Actors\\Character\\Character Assets\\FemaleFeet_1.NIF"
+      },
+      "NAM0 - Male Skin Texture": "EBDEUniqueID: MaleSkinTextureFeet",
+      "NAM1 - Female Skin Texture": "SkinBodyFemale_1",
+      "NAM2 - Male Skin Texture Swap List": "SkinMaleHumanBody",
+      "NAM3 - Female Skin Texture Swap List": "SkinFemaleHumanBody",
+      "SNDD - Footstep Sound": "FSTBarefootFootstepSet"
+    },
+    {
+      "EBDEUniqueID": "MaleSkinTextureFeet",
+      "Position": "NAM0 - Male Skin Texture",
+      "Signature": "TXST",
+      "OBND - Object Bounds": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Textures (RGB/A)":
+      [
+        ["TX00 - Difuse","#GENERATED(path|malefeet_1.dds)"],
+        ["TX01 - Normal/Gloss", "#GENERATED(path|malefeet_1_msn.dds)"],
+        ["TX03 - Glow/Detail Map", "#GENERATED(path|malefeet_1_sk.dds)"],
+        ["TX07 - Backlight Mask/Specular", "#GENERATED(path|malefeet_1_s.dds)"]
+      ],
+      "DNAM - Flags": ["Facegen Textures", "Has Model Space Normal Map"]
+    },
+    {
+      "EBDEUniqueID": "MaleHeadPart",
+      "Position": "Head Parts",
+      "Signature": "HDPT",
+      "Record Flags (sorted)": [
+        "Non-Playable"
+      ],
+      "EditorID": "#fromPermutation",
+      "FULL - Name": "#fromPermutation",
+      "Model": ["#fromRecordString|#GENERATED(path|MaleHead.NIF)|Actors\\Character\\Character Assets\\MaleHead.NIF\""],
+      "Data Flags": "Male",
+      "PNAM - Type": "Face",
+      "Parts":
+              [
+                {
+                  "NAM0 - Part Type": "Race Morph",
+                  "NAM1 - FileName": "Actors\\Character\\Character Assets\\MaleHeadRaces.tri"
+                },
+                {
+                  "NAM0 - Part Type": "Tri",
+                  "NAM1 - FileName": "Actors\\Character\\Character Assets\\MaleHead.tri"
+                },
+                {
+                  "NAM0 - Part Type": "Chargen Morph",
+                  "NAM1 - FileName": "Actors\\Character\\Character Assets\\MaleHeadCustomizations.tri"
+                }
+              ],
+      "TNAM - Texture Set": "EBDEUniqueID: MaleHeadTexture",
+    },
+    {
+      "EBDEUniqueID": "MaleHeadTexture",
+      "Position": "TNAM - Texture Set",
+      "Signature": "TXST",
+      "EditorID": "MaleHeadSkin",
+      "OBND - Object Bounds": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Textures (RGB/A)":
+      [
+        ["TX00 - Difuse","#GENERATED(path|malehead.dds)"],
+        ["TX01 - Normal/Gloss", "#GENERATED(path|malehead_msn.dds)"],
+        ["TX03 - Glow/Detail Map", "#GENERATED(path|malehead_sk.dds)"],
+        ["TX04 - Height", "#GENERATED(path|BlankDetailMap.dds)"],
+        ["TX07 - Backlight Mask/Specular", "#GENERATED(path|malehead_s.dds)"]
+      ],
+      "DNAM - Flags": ["Facegen Textures", "Has Model Space Normal Map"],
+      "RNAM - Valid Races": "?"
+    }
+  ]
+}

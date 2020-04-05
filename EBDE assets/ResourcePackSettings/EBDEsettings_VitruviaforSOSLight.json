@@ -1,0 +1,858 @@
+
+  {
+    "groupName": "Vitruvia Skins for SOS light",
+    
+	"gender": "male",
+
+ 	 "displayAlerts": true,
+
+ 	 "userAlert": "Please make sure that this mod's Briarheart textures are installed to the data directory to match the body textures (pick this or Vitruvia)",
+	  
+	  "subgroups":
+	[
+		{
+		  "id": "F01",
+		  "enabled": true,
+		  "allowedRaces": ["humanoid"],
+		  "disallowedRaces": [],
+		  "allowedAttributes": [],
+		  "disallowedAttributes": [],
+		  "name": "01 Core",
+		  "requireSubgroups": [],
+		  "excludeSubgroups": [],
+		  "paths": 
+		  [
+			"textures\\EBD\\VitruviaSOSL\\01 Core\\Textures\\actors\\character\\male\\malebody_1_sk.dds",
+			  "textures\\EBD\\VitruviaSOSL\\01 Core\\Textures\\actors\\character\\male\\malehands_1.dds",
+			  "textures\\EBD\\VitruviaSOSL\\01 Core\\Textures\\actors\\character\\male\\malehands_1_msn.dds",
+			  "textures\\EBD\\VitruviaSOSL\\01 Core\\Textures\\actors\\character\\male\\malehands_1_s.dds",
+			  "textures\\EBD\\VitruviaSOSL\\01 Core\\Textures\\actors\\character\\male\\malehands_1_sk.dds",
+			  "textures\\EBD\\VitruviaSOSL\\01 Core\\Textures\\actors\\character\\male\\malehead_sk.dds"
+		  ],
+		  "subgroups": []
+		},
+
+		{
+			"id": "F02",
+			"enabled": true,
+			"allowedRaces": ["humanoid"],
+			"disallowedRaces": [],
+			"allowedAttributes": [],
+			"disallowedAttributes": [],
+			"name": "Body Resolution Options",
+			"requireSubgroups": [],
+			"excludeSubgroups": [],
+			"paths":			[],
+			"subgroups":
+			[
+				{
+					"id": "F02.2K",
+					"enabled": true,
+					"allowedRaces": ["humanoid"],
+					"disallowedRaces": [],
+					"allowedAttributes": [],
+					"disallowedAttributes": [],
+					"name": "Body - 2K textures",
+					"requireSubgroups": ["F03.2K"],
+					"excludeSubgroups": [],
+					"paths":[],
+					"subgroups":
+					[
+						{
+							"id": "F02.2K.Reg",
+							"enabled": true,
+							"allowedRaces": ["humanoid"],
+							"disallowedRaces": [],
+							"allowedAttributes": [],
+							"disallowedAttributes": [],
+							"name": "Body - 2K textures - Regular",
+							"requireSubgroups": [],
+							"excludeSubgroups": [],
+							"paths":
+							[
+								"textures\\EBD\\VitruviaSOSL\\02 Vitruvia - SOS Light 2K\\Textures\\actors\\character\\male\\malebody_1.dds",
+								"textures\\EBD\\VitruviaSOSL\\02 Vitruvia - SOS Light 2K\\Textures\\actors\\character\\male\\malebody_1_msn.dds",
+								"textures\\EBD\\VitruviaSOSL\\02 Vitruvia - SOS Light 2K\\Textures\\actors\\character\\male\\malebody_1_feet.dds",
+								"textures\\EBD\\VitruviaSOSL\\02 Vitruvia - SOS Light 2K\\Textures\\actors\\character\\male\\malebody_1_msn_feet.dds"
+							],
+							"subgroups": []
+						},
+						{
+							"id": "F02.2K.Hl",
+							"enabled": true,
+							"allowedRaces": ["humanoid"],
+							"disallowedRaces": [],
+							"allowedAttributes": [],
+							"disallowedAttributes": [],
+							"name": "Body - 2K textures - Hairless",
+							"requireSubgroups": [],
+							"excludeSubgroups": [],
+							"paths":
+							[
+								"textures\\EBD\\VitruviaSOSL\\04 Hairless Chest\\01 2K\\Textures\\actors\\character\\male",
+								"textures\\EBD\\VitruviaSOSL\\02 Vitruvia - SOS Light 2K\\Textures\\actors\\character\\male\\malebody_1_msn.dds",
+								"textures\\EBD\\VitruviaSOSL\\02 Vitruvia - SOS Light 2K\\Textures\\actors\\character\\male\\malebody_1_feet.dds",
+								"textures\\EBD\\VitruviaSOSL\\02 Vitruvia - SOS Light 2K\\Textures\\actors\\character\\male\\malebody_1_msn_feet.dds"
+							],
+							"subgroups": []
+						},
+						{
+							"id": "F02.2K.RegS",
+							"enabled": true,
+							"allowedRaces": ["humanoid"],
+							"disallowedRaces": [],
+							"allowedAttributes": [],
+							"disallowedAttributes": [],
+							"name": "Body - 2K textures - Regular/Scars",
+							"requireSubgroups": [],
+							"excludeSubgroups": [],
+							"paths":
+							[
+								"textures\\EBD\\VitruviaSOSL\\05 Scars\\01 2K\\Textures\\actors\\character\\male\\malebody_1.dds",
+								"textures\\EBD\\VitruviaSOSL\\05 Scars\\01 2K\\Textures\\actors\\character\\male\\malebody_1_msn.dds",
+								"textures\\EBD\\VitruviaSOSL\\02 Vitruvia - SOS Light 2K\\Textures\\actors\\character\\male\\malebody_1_feet.dds",
+								"textures\\EBD\\VitruviaSOSL\\02 Vitruvia - SOS Light 2K\\Textures\\actors\\character\\male\\malebody_1_msn_feet.dds"
+							],
+							"subgroups": []
+						},
+						{
+							"id": "F02.2K.HlS",
+							"enabled": true,
+							"allowedRaces": ["humanoid"],
+							"disallowedRaces": [],
+							"allowedAttributes": [],
+							"disallowedAttributes": [],
+							"name": "Body - 2K textures - Hairless/Scars",
+							"requireSubgroups": [],
+							"excludeSubgroups": [],
+							"paths":
+							[
+								"textures\\EBD\\VitruviaSOSL\\05 Scars - hairless\\01 2K\\Textures\\actors\\character\\male\\malebody_1.dds",
+								"textures\\EBD\\VitruviaSOSL\\05 Scars - hairless\\01 2K\\Textures\\actors\\character\\male\\malebody_1_msn.dds",
+								"textures\\EBD\\VitruviaSOSL\\02 Vitruvia - SOS Light 2K\\Textures\\actors\\character\\male\\malebody_1_feet.dds",
+								"textures\\EBD\\VitruviaSOSL\\02 Vitruvia - SOS Light 2K\\Textures\\actors\\character\\male\\malebody_1_msn_feet.dds"
+							],
+							"subgroups": []
+						}
+					]
+				},
+				{
+					"id": "F02.4K2K",
+					"enabled": true,
+					"allowedRaces": ["humanoid"],
+					"disallowedRaces": [],
+					"allowedAttributes": [],
+					"disallowedAttributes": [],
+					"name": "Body - 4K-2K textures",
+					"requireSubgroups": ["F03.4K2K"],
+					"excludeSubgroups": [],
+					"paths":[	],
+					"subgroups":
+					[
+						{
+							"id": "F02.4K2K.Reg",
+							"enabled": true,
+							"allowedRaces": ["humanoid"],
+							"disallowedRaces": [],
+							"allowedAttributes": [],
+							"disallowedAttributes": [],
+							"name": "Body - 4K2K textures - Regular",
+							"requireSubgroups": [],
+							"excludeSubgroups": [],
+							"paths":
+							[
+								"textures\\EBD\\VitruviaSOSL\\03 Vitruvia - SOS Light 4K-2K\\Textures\\actors\\character\\male\\malebody_1.dds",
+								"textures\\EBD\\VitruviaSOSL\\03 Vitruvia - SOS Light 4K-2K\\Textures\\actors\\character\\male\\malebody_1_msn.dds",
+								"textures\\EBD\\VitruviaSOSL\\03 Vitruvia - SOS Light 4K-2K\\Textures\\actors\\character\\male\\malebody_1_feet.dds",
+								"textures\\EBD\\VitruviaSOSL\\03 Vitruvia - SOS Light 4K-2K\\Textures\\actors\\character\\male\\malebody_1_msn_feet.dds"
+							],
+							"subgroups": []
+						},
+						{
+							"id": "F02.4K2K.Hl",
+							"enabled": true,
+							"allowedRaces": ["humanoid"],
+							"disallowedRaces": [],
+							"allowedAttributes": [],
+							"disallowedAttributes": [],
+							"name": "Body - 4K2K textures - Hairless",
+							"requireSubgroups": [],
+							"excludeSubgroups": [],
+							"paths":
+							[
+								"textures\\EBD\\VitruviaSOSL\\04 Hairless Chest\\03 - 4K\\Textures\\actors\\character\\male\\malebody_1.dds",
+								"textures\\EBD\\VitruviaSOSL\\03 Vitruvia - SOS Light 4K-2K\\Textures\\actors\\character\\male\\malebody_1_msn.dds",
+								"textures\\EBD\\VitruviaSOSL\\03 Vitruvia - SOS Light 4K-2K\\Textures\\actors\\character\\male\\malebody_1_feet.dds",
+								"textures\\EBD\\VitruviaSOSL\\03 Vitruvia - SOS Light 4K-2K\\Textures\\actors\\character\\male\\malebody_1_msn_feet.dds"
+							],
+							"subgroups": []
+						},
+						{
+							"id": "F02.4K2K.RegS",
+							"enabled": true,
+							"allowedRaces": ["humanoid"],
+							"disallowedRaces": [],
+							"allowedAttributes": [],
+							"disallowedAttributes": [],
+							"name": "Body - 4K2K textures - Regular/Scars",
+							"requireSubgroups": [],
+							"excludeSubgroups": [],
+							"paths":
+							[
+								"textures\\EBD\\VitruviaSOSL\\05 Scars\\03 - 4K\\Textures\\actors\\character\\male\\malebody_1.dds",
+								"textures\\EBD\\VitruviaSOSL\\05 Scars\\03 - 4K\\Textures\\actors\\character\\male\\malebody_1_msn.dds",
+								"textures\\EBD\\VitruviaSOSL\\03 Vitruvia - SOS Light 4K-2K\\Textures\\actors\\character\\male\\malebody_1_feet.dds",
+								"textures\\EBD\\VitruviaSOSL\\03 Vitruvia - SOS Light 4K-2K\\Textures\\actors\\character\\male\\malebody_1_msn_feet.dds"
+							],
+							"subgroups": []
+						},
+						{
+							"id": "F02.4K2K.HlS",
+							"enabled": true,
+							"allowedRaces": ["humanoid"],
+							"disallowedRaces": [],
+							"allowedAttributes": [],
+							"disallowedAttributes": [],
+							"name": "Body - 4K2K textures - Hairless/Scars",
+							"requireSubgroups": [],
+							"excludeSubgroups": [],
+							"paths":
+							[
+								"textures\\EBD\\VitruviaSOSL\\05 Scars - hairless\\03 - 4K\\Textures\\actors\\character\\male\\malebody_1.dds",
+								"textures\\EBD\\VitruviaSOSL\\05 Scars - hairless\\03 - 4K\\Textures\\actors\\character\\male\\malebody_1_msn.dds",
+								"textures\\EBD\\VitruviaSOSL\\03 Vitruvia - SOS Light 4K-2K\\Textures\\actors\\character\\male\\malebody_1_feet.dds",
+								"textures\\EBD\\VitruviaSOSL\\03 Vitruvia - SOS Light 4K-2K\\Textures\\actors\\character\\male\\malebody_1_msn_feet.dds"
+							],
+							"subgroups": []
+						}
+					]
+				},
+				{
+					"id": "F02.P",
+					"enabled": true,
+					"allowedRaces": ["humanoid"],
+					"disallowedRaces": [],
+					"allowedAttributes": [],
+					"disallowedAttributes": [],
+					"name": "Body - Performance textures",
+					"requireSubgroups": ["F03.P"],
+					"excludeSubgroups": [],
+					"paths":[	],
+					"subgroups":
+					[
+						{
+							"id": "F02.P.Reg",
+							"enabled": true,
+							"allowedRaces": ["humanoid"],
+							"disallowedRaces": [],
+							"allowedAttributes": [],
+							"disallowedAttributes": [],
+							"name": "Body - P textures - Regular",
+							"requireSubgroups": [],
+							"excludeSubgroups": [],
+							"paths":
+							[
+								"textures\\EBD\\VitruviaSOSL\\04 Vitruvia - SOS Light - Performance\\Textures\\actors\\character\\male\\malebody_1.dds",
+								"textures\\EBD\\VitruviaSOSL\\04 Vitruvia - SOS Light - Performance\\Textures\\actors\\character\\male\\malebody_1_msn.dds",
+								"textures\\EBD\\VitruviaSOSL\\04 Vitruvia - SOS Light - Performance\\Textures\\actors\\character\\male\\malebody_1_feet.dds",
+								"textures\\EBD\\VitruviaSOSL\\04 Vitruvia - SOS Light - Performance\\Textures\\actors\\character\\male\\malebody_1_msn_feet.dds"
+							],
+							"subgroups": []
+						},
+						{
+							"id": "F02.P.Hl",
+							"enabled": true,
+							"allowedRaces": ["humanoid"],
+							"disallowedRaces": [],
+							"allowedAttributes": [],
+							"disallowedAttributes": [],
+							"name": "Body - P textures - Hairless",
+							"requireSubgroups": [],
+							"excludeSubgroups": [],
+							"paths":
+							[
+								"textures\\EBD\\VitruviaSOSL\\04 Hairless Chest\\02 Compressed\\Textures\\actors\\character\\male\\malebody_1.dds",
+								"textures\\EBD\\VitruviaSOSL\\04 Vitruvia - SOS Light - Performance\\Textures\\actors\\character\\male\\malebody_1_msn.dds",
+								"textures\\EBD\\VitruviaSOSL\\04 Vitruvia - SOS Light - Performance\\Textures\\actors\\character\\male\\malebody_1_feet.dds",
+								"textures\\EBD\\VitruviaSOSL\\04 Vitruvia - SOS Light - Performance\\Textures\\actors\\character\\male\\malebody_1_msn_feet.dds"
+							],
+							"subgroups": []
+						},
+						{
+							"id": "F02.P.RegS",
+							"enabled": true,
+							"allowedRaces": ["humanoid"],
+							"disallowedRaces": [],
+							"allowedAttributes": [],
+							"disallowedAttributes": [],
+							"name": "Body - P textures - Regular/Scars",
+							"requireSubgroups": [],
+							"excludeSubgroups": [],
+							"paths":
+							[
+								"textures\\EBD\\VitruviaSOSL\\05 Scars\\02 Compressed\\Textures\\actors\\character\\male\\malebody_1.dds",
+								"textures\\EBD\\VitruviaSOSL\\05 Scars\\02 Compressed\\Textures\\actors\\character\\male\\malebody_1_msn.dds",
+								"textures\\EBD\\VitruviaSOSL\\04 Vitruvia - SOS Light - Performance\\Textures\\actors\\character\\male\\malebody_1_feet.dds",
+								"textures\\EBD\\VitruviaSOSL\\04 Vitruvia - SOS Light - Performance\\Textures\\actors\\character\\male\\malebody_1_msn_feet.dds"
+							],
+							"subgroups": []
+						},
+						{
+							"id": "F02.P.HlS",
+							"enabled": true,
+							"allowedRaces": ["humanoid"],
+							"disallowedRaces": [],
+							"allowedAttributes": [],
+							"disallowedAttributes": [],
+							"name": "Body - P textures - Hairless/Scars",
+							"requireSubgroups": [],
+							"excludeSubgroups": [],
+							"paths":
+							[
+								"textures\\EBD\\VitruviaSOSL\\05 Scars - hairless\\02 Compressed\\Textures\\actors\\character\\male\\malebody_1.dds",
+								"textures\\EBD\\VitruviaSOSL\\05 Scars - hairless\\02 Compressed\\Textures\\actors\\character\\male\\malebody_1_msn.dds",
+								"textures\\EBD\\VitruviaSOSL\\04 Vitruvia - SOS Light - Performance\\Textures\\actors\\character\\male\\malebody_1_feet.dds",
+								"textures\\EBD\\VitruviaSOSL\\04 Vitruvia - SOS Light - Performance\\Textures\\actors\\character\\male\\malebody_1_msn_feet.dds"
+							],
+							"subgroups": []
+						}
+					]
+				}
+			]
+		},
+
+		{
+			"id": "F03",
+			"enabled": true,
+			"allowedRaces": ["humanoid"],
+			"disallowedRaces": [],
+			"allowedAttributes": [],
+			"disallowedAttributes": [],
+			"name": "Face Resolution Options",
+			"requireSubgroups": [],
+			"excludeSubgroups": [],
+			"paths":			[],
+			"subgroups":
+			[
+				{
+					"id": "F03.2K",
+					"enabled": true,
+					"allowedRaces": ["humanoid"],
+					"disallowedRaces": [],
+					"allowedAttributes": [],
+					"disallowedAttributes": [],
+					"name": "Face - 2K textures",
+					"requireSubgroups": ["F02.2K"],
+					"excludeSubgroups": [],
+					"paths":
+					[
+						"textures\\EBD\\VitruviaSOSL\\02 Vitruvia - SOS Light 2K\\Textures\\actors\\character\\male\\malehead_s.dds"
+					],
+					"subgroups":
+					[
+						{
+							"id": "F03.2K.B",
+							"enabled": true,
+							"allowedRaces": ["BretonRace"],
+							"disallowedRaces": [],
+							"allowedAttributes": [],
+							"disallowedAttributes": [],
+							"name": "Face - 2K textures - Breton",
+							"requireSubgroups": [],
+							"excludeSubgroups": [],
+							"paths":
+							[
+								"textures\\EBD\\VitruviaSOSL\\02 Vitruvia - SOS Light 2K\\Textures\\actors\\character\\male\\malehead.dds",
+								"textures\\EBD\\VitruviaSOSL\\02 Vitruvia - SOS Light 2K\\Textures\\actors\\character\\bretonmale\\malehead_msn.dds"
+							],
+							"subgroups": []
+						},
+						{
+							"id": "F03.2K.D",
+							"enabled": true,
+							"allowedRaces": ["DarkElfRace"],
+							"disallowedRaces": [],
+							"allowedAttributes": [],
+							"disallowedAttributes": [],
+							"name": "Face - 2K textures - Dark Elf",
+							"requireSubgroups": [],
+							"excludeSubgroups": [],
+							"paths":[ "textures\\EBD\\VitruviaSOSL\\02 Vitruvia - SOS Light 2K\\Textures\\actors\\character\\male\\malehead.dds",
+								"textures\\EBD\\VitruviaSOSL\\02 Vitruvia - SOS Light 2K\\Textures\\actors\\character\\darkelfmale\\malehead_msn.dds"],
+							"subgroups": []
+						},
+						{
+							"id": "F03.2K.H",
+							"enabled": true,
+							"allowedRaces": ["HighElfRace"],
+							"disallowedRaces": [],
+							"allowedAttributes": [],
+							"disallowedAttributes": [],
+							"name": "Face - 2K textures - High Elf",
+							"requireSubgroups": [],
+							"excludeSubgroups": [],
+							"paths":[ "textures\\EBD\\VitruviaSOSL\\02 Vitruvia - SOS Light 2K\\Textures\\actors\\character\\male\\malehead.dds",
+								"textures\\EBD\\VitruviaSOSL\\02 Vitruvia - SOS Light 2K\\Textures\\actors\\character\\highelfmale\\malehead_msn.dds"],
+							"subgroups": []
+						},
+						{
+							"id": "F03.2K.I",
+							"enabled": true,
+							"allowedRaces": ["ImperialRace"],
+							"disallowedRaces": [],
+							"allowedAttributes": [],
+							"disallowedAttributes": [],
+							"name": "Face - 2K textures - Imperial",
+							"requireSubgroups": [],
+							"excludeSubgroups": [],
+							"paths":[ "textures\\EBD\\VitruviaSOSL\\02 Vitruvia - SOS Light 2K\\Textures\\actors\\character\\male\\malehead.dds",
+								"textures\\EBD\\VitruviaSOSL\\02 Vitruvia - SOS Light 2K\\Textures\\actors\\character\\imperialmale\\malehead_msn.dds"],
+							"subgroups": []
+						},
+						{
+							"id": "F03.2K.N",
+							"enabled": true,
+							"allowedRaces": ["NordRace"],
+							"disallowedRaces": [],
+							"allowedAttributes": [],
+							"disallowedAttributes": [],
+							"name": "Face - 2K textures - Nord",
+							"requireSubgroups": [],
+							"excludeSubgroups": [],
+							"paths":[ "textures\\EBD\\VitruviaSOSL\\02 Vitruvia - SOS Light 2K\\Textures\\actors\\character\\male\\malehead.dds",
+								"textures\\EBD\\VitruviaSOSL\\02 Vitruvia - SOS Light 2K\\Textures\\actors\\character\\male\\malehead_msn.dds"],
+							"subgroups": []
+						},
+						{
+							"id": "F03.2K.D",
+							"enabled": true,
+							"allowedRaces": ["OrcRace"],
+							"disallowedRaces": [],
+							"allowedAttributes": [],
+							"disallowedAttributes": [],
+							"name": "Face - 2K textures - Orc",
+							"requireSubgroups": [],
+							"excludeSubgroups": [],
+							"paths":[ "textures\\EBD\\VitruviaSOSL\\02 Vitruvia - SOS Light 2K\\Textures\\actors\\character\\male\\malehead.dds",
+								"textures\\EBD\\VitruviaSOSL\\02 Vitruvia - SOS Light 2K\\Textures\\actors\\character\\orcmale\\maleheadorc_msn.dds"],
+							"subgroups": []
+						},
+						{
+							"id": "F03.2K.R",
+							"enabled": true,
+							"allowedRaces": ["RedguardRace"],
+							"disallowedRaces": [],
+							"allowedAttributes": [],
+							"disallowedAttributes": [],
+							"name": "Face - 2K textures - Redguard",
+							"requireSubgroups": [],
+							"excludeSubgroups": [],
+							"paths":[ "textures\\EBD\\VitruviaSOSL\\02 Vitruvia - SOS Light 2K\\Textures\\actors\\character\\male\\malehead.dds",
+								"textures\\EBD\\VitruviaSOSL\\02 Vitruvia - SOS Light 2K\\Textures\\actors\\character\\redguardmale\\malehead_msn.dds"],
+							"subgroups": []
+						},
+						{
+							"id": "F03.2K.W",
+							"enabled": true,
+							"allowedRaces": ["WoodElfRace"],
+							"disallowedRaces": [],
+							"allowedAttributes": [],
+							"disallowedAttributes": [],
+							"name": "Face - 2K textures - Wood Elf",
+							"requireSubgroups": [],
+							"excludeSubgroups": [],
+							"paths":[ "textures\\EBD\\VitruviaSOSL\\02 Vitruvia - SOS Light 2K\\Textures\\actors\\character\\male\\malehead.dds",
+								"textures\\EBD\\VitruviaSOSL\\02 Vitruvia - SOS Light 2K\\Textures\\actors\\character\\woodelfmale\\malehead_msn.dds"],
+							"subgroups": []
+						},
+						{
+							"id": "F03.2K.V",
+							"enabled": true,
+							"allowedRaces": ["VampireRace"],
+							"disallowedRaces": [],
+							"allowedAttributes": [],
+							"disallowedAttributes": [],
+							"name": "Face - 2K textures - Vampire",
+							"requireSubgroups": [],
+							"excludeSubgroups": [],
+							"paths":[ "textures\\EBD\\VitruviaSOSL\\02 Vitruvia - SOS Light 2K\\Textures\\actors\\character\\male\\maleheadvampire.dds",
+								"textures\\EBD\\VitruviaSOSL\\02 Vitruvia - SOS Light 2K\\Textures\\actors\\character\\male\\maleheadvampire_msn.dds"],
+							"subgroups": []
+						}
+					]
+				},
+				{
+					"id": "F03.4K2K",
+					"enabled": true,
+					"allowedRaces": ["humanoid"],
+					"disallowedRaces": [],
+					"allowedAttributes": [],
+					"disallowedAttributes": [],
+					"name": "Face - 4K-2K textures",
+					"requireSubgroups": ["F02.4K2K"],
+					"excludeSubgroups": [],
+					"paths":[	"textures\\EBD\\VitruviaSOSL\\02 Vitruvia - SOS Light 4K-2K\\Textures\\actors\\character\\male\\malehead_s.dds" ],
+					"subgroups":
+					[
+						{
+							"id": "F03.4K2K.B",
+							"enabled": true,
+							"allowedRaces": ["BretonRace"],
+							"disallowedRaces": [],
+							"allowedAttributes": [],
+							"disallowedAttributes": [],
+							"name": "Face - 4K textures - Breton",
+							"requireSubgroups": [],
+							"excludeSubgroups": [],
+							"paths":
+							[
+								"textures\\EBD\\VitruviaSOSL\\03 Vitruvia - SOS Light 4K-2K\\Textures\\actors\\character\\male\\malehead.dds",
+								"textures\\EBD\\VitruviaSOSL\\03 Vitruvia - SOS Light 4K-2K\\Textures\\actors\\character\\bretonmale\\malehead_msn.dds"
+							],
+							"subgroups": []
+						},
+						{
+							"id": "F03.4K2K.D",
+							"enabled": true,
+							"allowedRaces": ["DarkElfRace"],
+							"disallowedRaces": [],
+							"allowedAttributes": [],
+							"disallowedAttributes": [],
+							"name": "Face - 4K textures - Dark Elf",
+							"requireSubgroups": [],
+							"excludeSubgroups": [],
+							"paths":[ "textures\\EBD\\VitruviaSOSL\\03 Vitruvia - SOS Light 4K-2K\\Textures\\actors\\character\\male\\malehead.dds",
+								"textures\\EBD\\VitruviaSOSL\\03 Vitruvia - SOS Light 4K-2K\\Textures\\actors\\character\\darkelfmale\\malehead_msn.dds"],
+							"subgroups": []
+						},
+						{
+							"id": "F03.4K2K.H",
+							"enabled": true,
+							"allowedRaces": ["HighElfRace"],
+							"disallowedRaces": [],
+							"allowedAttributes": [],
+							"disallowedAttributes": [],
+							"name": "Face - 4K textures - High Elf",
+							"requireSubgroups": [],
+							"excludeSubgroups": [],
+							"paths":[ "textures\\EBD\\VitruviaSOSL\\03 Vitruvia - SOS Light 4K-2K\\Textures\\actors\\character\\male\\malehead.dds",
+								"textures\\EBD\\VitruviaSOSL\\03 Vitruvia - SOS Light 4K-2K\\Textures\\actors\\character\\highelfmale\\malehead_msn.dds"],
+							"subgroups": []
+						},
+						{
+							"id": "F03.4K2K.I",
+							"enabled": true,
+							"allowedRaces": ["ImperialRace"],
+							"disallowedRaces": [],
+							"allowedAttributes": [],
+							"disallowedAttributes": [],
+							"name": "Face - 4K textures - Imperial",
+							"requireSubgroups": [],
+							"excludeSubgroups": [],
+							"paths":[ "textures\\EBD\\VitruviaSOSL\\03 Vitruvia - SOS Light 4K-2K\\Textures\\actors\\character\\male\\malehead.dds",
+								"textures\\EBD\\VitruviaSOSL\\03 Vitruvia - SOS Light 4K-2K\\Textures\\actors\\character\\imperialmale\\malehead_msn.dds"],
+							"subgroups": []
+						},
+						{
+							"id": "F03.4K2K.N",
+							"enabled": true,
+							"allowedRaces": ["NordRace"],
+							"disallowedRaces": [],
+							"allowedAttributes": [],
+							"disallowedAttributes": [],
+							"name": "Face - 4K textures - Nord",
+							"requireSubgroups": [],
+							"excludeSubgroups": [],
+							"paths":[ "textures\\EBD\\VitruviaSOSL\\03 Vitruvia - SOS Light 4K-2K\\Textures\\actors\\character\\male\\malehead.dds",
+								"textures\\EBD\\VitruviaSOSL\\03 Vitruvia - SOS Light 4K-2K\\Textures\\actors\\character\\male\\malehead_msn.dds"],
+							"subgroups": []
+						},
+						{
+							"id": "F03.4K2K.D",
+							"enabled": true,
+							"allowedRaces": ["OrcRace"],
+							"disallowedRaces": [],
+							"allowedAttributes": [],
+							"disallowedAttributes": [],
+							"name": "Face - 4K textures - Orc",
+							"requireSubgroups": [],
+							"excludeSubgroups": [],
+							"paths":[ "textures\\EBD\\VitruviaSOSL\\03 Vitruvia - SOS Light 4K-2K\\Textures\\actors\\character\\male\\malehead.dds",
+								"textures\\EBD\\VitruviaSOSL\\03 Vitruvia - SOS Light 4K-2K\\Textures\\actors\\character\\orcmale\\maleheadorc_msn.dds"],
+							"subgroups": []
+						},
+						{
+							"id": "F03.4K2K.R",
+							"enabled": true,
+							"allowedRaces": ["RedguardRace"],
+							"disallowedRaces": [],
+							"allowedAttributes": [],
+							"disallowedAttributes": [],
+							"name": "Face - 4K textures - Redguard",
+							"requireSubgroups": [],
+							"excludeSubgroups": [],
+							"paths":[ "textures\\EBD\\VitruviaSOSL\\03 Vitruvia - SOS Light 4K-2K\\Textures\\actors\\character\\male\\malehead.dds",
+								"textures\\EBD\\VitruviaSOSL\\03 Vitruvia - SOS Light 4K-2K\\Textures\\actors\\character\\redguardmale\\malehead_msn.dds"],
+							"subgroups": []
+						},
+						{
+							"id": "F03.4K2K.W",
+							"enabled": true,
+							"allowedRaces": ["WoodElfRace"],
+							"disallowedRaces": [],
+							"allowedAttributes": [],
+							"disallowedAttributes": [],
+							"name": "Face - 4K textures - Wood Elf",
+							"requireSubgroups": [],
+							"excludeSubgroups": [],
+							"paths":[ "textures\\EBD\\VitruviaSOSL\\03 Vitruvia - SOS Light 4K-2K\\Textures\\actors\\character\\male\\malehead.dds",
+								"textures\\EBD\\VitruviaSOSL\\03 Vitruvia - SOS Light 4K-2K\\Textures\\actors\\character\\woodelfmale\\malehead_msn.dds"],
+							"subgroups": []
+						},
+						{
+							"id": "F03.4K2K.V",
+							"enabled": true,
+							"allowedRaces": ["VampireRace"],
+							"disallowedRaces": [],
+							"allowedAttributes": [],
+							"disallowedAttributes": [],
+							"name": "Face - 4K textures - Vampire",
+							"requireSubgroups": [],
+							"excludeSubgroups": [],
+							"paths":[ "textures\\EBD\\VitruviaSOSL\\03 Vitruvia - SOS Light 4K-2K\\Textures\\actors\\character\\male\\maleheadvampire.dds",
+								"textures\\EBD\\VitruviaSOSL\\03 Vitruvia - SOS Light 4K-2K\\Textures\\actors\\character\\male\\maleheadvampire_msn.dds"],
+							"subgroups": []
+						}
+					]
+				},
+				{
+					"id": "F03.P",
+					"enabled": true,
+					"allowedRaces": ["humanoid"],
+					"disallowedRaces": [],
+					"allowedAttributes": [],
+					"disallowedAttributes": [],
+					"name": "Face - Performance textures",
+					"requireSubgroups": ["F02.P"],
+					"excludeSubgroups": [],
+					"paths":[ "textures\\EBD\\VitruviaSOSL\\04 Vitruvia - SOS Light - Performance\\Textures\\actors\\character\\male\\malehead_s.dds"	],
+					"subgroups":
+					[
+						{
+							"id": "F03.P.B",
+							"enabled": true,
+							"allowedRaces": ["BretonRace"],
+							"disallowedRaces": [],
+							"allowedAttributes": [],
+							"disallowedAttributes": [],
+							"name": "Face - Performance Textures - Breton",
+							"requireSubgroups": [],
+							"excludeSubgroups": [],
+							"paths":
+							[
+								"textures\\EBD\\VitruviaSOSL\\04 Vitruvia - SOS Light - Performance\\Textures\\actors\\character\\male\\malehead.dds",
+								"textures\\EBD\\VitruviaSOSL\\04 Vitruvia - SOS Light - Performance\\Textures\\actors\\character\\bretonmale\\malehead_msn.dds"
+							],
+							"subgroups": []
+						},
+						{
+							"id": "F03.P.D",
+							"enabled": true,
+							"allowedRaces": ["DarkElfRace"],
+							"disallowedRaces": [],
+							"allowedAttributes": [],
+							"disallowedAttributes": [],
+							"name": "Face - Performance Textures - Dark Elf",
+							"requireSubgroups": [],
+							"excludeSubgroups": [],
+							"paths":[ "textures\\EBD\\VitruviaSOSL\\04 Vitruvia - SOS Light - Performance\\Textures\\actors\\character\\male\\malehead.dds",
+								"textures\\EBD\\VitruviaSOSL\\04 Vitruvia - SOS Light - Performance\\Textures\\actors\\character\\darkelfmale\\malehead_msn.dds"],
+							"subgroups": []
+						},
+						{
+							"id": "F03.P.H",
+							"enabled": true,
+							"allowedRaces": ["HighElfRace"],
+							"disallowedRaces": [],
+							"allowedAttributes": [],
+							"disallowedAttributes": [],
+							"name": "Face - Performance Textures - High Elf",
+							"requireSubgroups": [],
+							"excludeSubgroups": [],
+							"paths":[ "textures\\EBD\\VitruviaSOSL\\04 Vitruvia - SOS Light - Performance\\Textures\\actors\\character\\male\\malehead.dds",
+								"textures\\EBD\\VitruviaSOSL\\04 Vitruvia - SOS Light - Performance\\Textures\\actors\\character\\highelfmale\\malehead_msn.dds"],
+							"subgroups": []
+						},
+						{
+							"id": "F03.P.I",
+							"enabled": true,
+							"allowedRaces": ["ImperialRace"],
+							"disallowedRaces": [],
+							"allowedAttributes": [],
+							"disallowedAttributes": [],
+							"name": "Face - Performance Textures - Imperial",
+							"requireSubgroups": [],
+							"excludeSubgroups": [],
+							"paths":[ "textures\\EBD\\VitruviaSOSL\\04 Vitruvia - SOS Light - Performance\\Textures\\actors\\character\\male\\malehead.dds",
+								"textures\\EBD\\VitruviaSOSL\\04 Vitruvia - SOS Light - Performance\\Textures\\actors\\character\\imperialmale\\malehead_msn.dds"],
+							"subgroups": []
+						},
+						{
+							"id": "F03.P.N",
+							"enabled": true,
+							"allowedRaces": ["NordRace"],
+							"disallowedRaces": [],
+							"allowedAttributes": [],
+							"disallowedAttributes": [],
+							"name": "Face - Performance Textures - Nord",
+							"requireSubgroups": [],
+							"excludeSubgroups": [],
+							"paths":[ "textures\\EBD\\VitruviaSOSL\\04 Vitruvia - SOS Light - Performance\\Textures\\actors\\character\\male\\malehead.dds",
+								"textures\\EBD\\VitruviaSOSL\\04 Vitruvia - SOS Light - Performance\\Textures\\actors\\character\\male\\malehead_msn.dds"],
+							"subgroups": []
+						},
+						{
+							"id": "F03.P.D",
+							"enabled": true,
+							"allowedRaces": ["OrcRace"],
+							"disallowedRaces": [],
+							"allowedAttributes": [],
+							"disallowedAttributes": [],
+							"name": "Face - Performance Textures - Orc",
+							"requireSubgroups": [],
+							"excludeSubgroups": [],
+							"paths":[ "textures\\EBD\\VitruviaSOSL\\04 Vitruvia - SOS Light - Performance\\Textures\\actors\\character\\male\\malehead.dds",
+								"textures\\EBD\\VitruviaSOSL\\04 Vitruvia - SOS Light - Performance\\Textures\\actors\\character\\orcmale\\maleheadorc_msn.dds"],
+							"subgroups": []
+						},
+						{
+							"id": "F03.P.R",
+							"enabled": true,
+							"allowedRaces": ["RedguardRace"],
+							"disallowedRaces": [],
+							"allowedAttributes": [],
+							"disallowedAttributes": [],
+							"name": "Face - Performance Textures - Redguard",
+							"requireSubgroups": [],
+							"excludeSubgroups": [],
+							"paths":[ "textures\\EBD\\VitruviaSOSL\\04 Vitruvia - SOS Light - Performance\\Textures\\actors\\character\\male\\malehead.dds",
+								"textures\\EBD\\VitruviaSOSL\\04 Vitruvia - SOS Light - Performance\\Textures\\actors\\character\\redguardmale\\malehead_msn.dds"],
+							"subgroups": []
+						},
+						{
+							"id": "F03.P.W",
+							"enabled": true,
+							"allowedRaces": ["WoodElfRace"],
+							"disallowedRaces": [],
+							"allowedAttributes": [],
+							"disallowedAttributes": [],
+							"name": "Face - Performance Textures - Wood Elf",
+							"requireSubgroups": [],
+							"excludeSubgroups": [],
+							"paths":[ "textures\\EBD\\VitruviaSOSL\\04 Vitruvia - SOS Light - Performance\\Textures\\actors\\character\\male\\malehead.dds",
+								"textures\\EBD\\VitruviaSOSL\\04 Vitruvia - SOS Light - Performance\\Textures\\actors\\character\\woodelfmale\\malehead_msn.dds"],
+							"subgroups": []
+						},
+						{
+							"id": "F03.P.V",
+							"enabled": true,
+							"allowedRaces": ["VampireRace"],
+							"disallowedRaces": [],
+							"allowedAttributes": [],
+							"disallowedAttributes": [],
+							"name": "Face - Performance Textures - Vampire",
+							"requireSubgroups": [],
+							"excludeSubgroups": [],
+							"paths":[ "textures\\EBD\\VitruviaSOSL\\04 Vitruvia - SOS Light - Performance\\Textures\\actors\\character\\male\\maleheadvampire.dds",
+								"textures\\EBD\\VitruviaSOSL\\04 Vitruvia - SOS Light - Performance\\Textures\\actors\\character\\male\\maleheadvampire_msn.dds"],
+							"subgroups": []
+						}
+					]
+				}
+			]
+		},
+
+		{
+			"id": "F04",
+			"enabled": true,
+			"allowedRaces": ["humanoid"],
+			"disallowedRaces": [],
+			"allowedAttributes": [],
+			"disallowedAttributes": [],
+			"name": "Body - Specular Options",
+			"requireSubgroups": [],
+			"excludeSubgroups": [],
+			"paths":[	],
+			"subgroups":
+			[
+				{
+					"id": "F04.R",
+					"enabled": true,
+					"allowedRaces": ["humanoid"],
+					"disallowedRaces": [],
+					"allowedAttributes": [],
+					"disallowedAttributes": [],
+					"name": "Body - Specular Options - Regular",
+					"requireSubgroups": [],
+					"excludeSubgroups": [],
+					"paths":["textures\\EBD\\VitruviaSOSL\\01 Core\\Textures\\actors\\character\\male\\malebody_1_s.dds"],
+					"subgroups":	[]
+				},
+				{
+					"id": "F04.W",
+					"enabled": true,
+					"allowedRaces": ["humanoid"],
+					"disallowedRaces": [],
+					"allowedAttributes": [],
+					"disallowedAttributes": [],
+					"name": "Body - Specular Options - Wet",
+					"requireSubgroups": [],
+					"excludeSubgroups": [],
+					"paths":[ "textures\\EBD\\VitruviaSOSL\\06 Wet Body (CMO) specular\\Textures\\actors\\character\\male\\malebody_1_s.dds"	],
+					"subgroups":	[]
+				}
+			]
+		}
+	],
+	
+	"overrideGroups": 
+	[
+		{
+		  "id": "OG.orc",
+		  "enabled": true,
+		  "allowedRaces": ["OrcRace, OrcRaceVampire"],
+		  "disallowedRaces": [],
+		  "allowedAttributes": [],
+		  "disallowedAttributes": [],
+		  "name": "Override textures for Orcs",
+		  "requireSubgroups": [],
+		  "excludeSubgroups": [],
+		  "assetPathPairs": 
+		  [
+			["mouthorc.dds", "textures\\EBD\\VitruviaSOSL\\01 Core\\Textures\\actors\\character\\mouth\\mouthorc.dds"],
+			["mouthorc_n.dds", "textures\\EBD\\VitruviaSOSL\\01 Core\\Textures\\actors\\character\\mouth\\mouthorc_n.dds"]
+		  ]
+		},
+
+		{
+			"id": "OG.VitruviaGeneral",
+			"enabled": true,
+			"allowedRaces": [],
+			"disallowedRaces": [],
+			"allowedAttributes": [],
+			"disallowedAttributes": [],
+			"name": "BlankDetailMap",
+			"requireSubgroups": [],
+			"excludeSubgroups": [],
+			"assetPathPairs":
+			[
+				["blankdetailmap.dds", "textures\\EBD\\VitruviaSOSL\\01 Core\\Textures\\actors\\character\\male\\blankdetailmap.dds"],
+				["maleheaddetail_age40.dds", "textures\\EBD\\VitruviaSOSL\\01 Core\\Textures\\actors\\character\\male\\maleheaddetail_age40.dds"],
+				["maleheaddetail_age40rough.dds", "textures\\EBD\\VitruviaSOSL\\01 Core\\Textures\\actors\\character\\male\\maleheaddetail_age40rough.dds"],
+				["maleheaddetail_age50.dds", "textures\\EBD\\VitruviaSOSL\\01 Core\\Textures\\actors\\character\\male\\maleheaddetail_age50.dds"],
+				["maleheaddetail_rough01","textures\\EBD\\VitruviaSOSL\\01 Core\\Textures\\actors\\character\\male\\maleheaddetail_rough01"]
+			]
+		}
+	]
+  }
+  

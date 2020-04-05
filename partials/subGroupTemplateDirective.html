@@ -1,0 +1,81 @@
+<!--<h4>Subgroup <button ng-click="addSubgroup()">Add</button></h4> -->
+<div class="displaySubgroups">
+    Display subgroups<input ng-model=collapse type=checkbox>
+    <div ng-show=collapse>
+
+        <ul>
+            <div ng-repeat="subgroup in data" track by $index>
+                <!-- stuff here to edit things -->
+                <!-- <button ng-click="addSubgroup()">Add New Subgroup</button> -->
+                <div ng-init="subgroupIndex = $index">
+
+               {{subgroup.id + ": " + subgroup.name}} (Details <input ng-model=showdetails type=checkbox>) <button ng-click="removeSubgroup($index)">Remove</button>
+               <div ng-show = "showdetails">
+
+                       <span class="input-label">Subgroup ID: </span>
+                       <input type="text" ng-model="subgroup.id">
+                       <br>
+                       Enabled: <input type="checkbox" ng-model="subgroup.enabled">
+                       <br>
+                       <span class="input-label">Subgroup Description: </span>
+                       <input type="text" ng-model="subgroup.name">
+                       <br>
+                       Allowed Races: <button ng-click="addAllowedRace($index)">Add New</button>
+                       <ul>
+                           <div class="allowedRaces" ng-repeat="arace in subgroup.allowedRaces track by $index">
+                               <input type="text" ng-model="subgroup.allowedRaces[$index]"> <button ng-click="removeAllowedRace(subgroupIndex, $index)">Remove</button>
+                           </div>
+                       </ul>
+                       Disallowed Races: <button ng-click="addDisallowedRace($index)">Add New</button>
+                       <ul>
+                           <div class="disallowedRaces" ng-repeat="drace in subgroup.disallowedRaces track by $index">
+                               <input type="text" ng-model="drace"> <button ng-click="removeDisallowedRace(subgroupIndex, $index)">Remove</button>
+                           </div>
+                       </ul>
+                       Allowed Attributes: <button ng-click="addAllowedAttribute($index)">Add New</button>
+                       <ul>
+                           <div class="allowedAttributes" ng-repeat="attributePair in subgroup.allowedAttributes track by $index">
+                               <input type="text" ng-model="subgroup.allowedAttributes[$index][0]"> <input type="text" ng-model="subgroup.allowedAttributes[$index][1]"> <button ng-click="removeAllowedAttribute(subgroupIndex, $index)">Remove</button>
+                           </div>
+                       </ul>
+                       Disallowed Attributes: <button ng-click="addDisallowedAttribute($index)">Add New</button>
+                       <ul>
+                           <div class="disallowedAttributes" ng-repeat="attributePair in subgroup.disallowedAttributes track by $index">
+                               <input type="text" ng-model="subgroup.disallowedAttributes[$index][0]"> <input type="text" ng-model="subgroup.disallowedAttributes[$index][0]"> <button ng-click="removeDisallowedAttribute(subgroupIndex, $index)">Remove</button>
+                           </div>
+                       </ul>
+                       Require Subgroups: <button ng-click="addRequireSubgroup($index)">Add New</button>
+                       <ul>
+                           <div class="requireSubgroups" ng-repeat="subgroupR in subgroup.requireSubgroups track by $index">
+                               <input type="text" ng-model="subgroup.requireSubgroups[$index]"> <button ng-click="removeRequireSubgroup(subgroupIndex, $index)">Remove</button>
+                           </div>
+                       </ul>
+                       Exclude Subgroups: <button ng-click="addExcludeSubgroup($index)">Add New</button>
+                       <ul>
+                           <div class="excludeSubgroups" ng-repeat="subgroupR in subgroup.excludeSubgroups track by $index">
+                               <input type="text" ng-model="subgroup.excludeSubgroups[$index]"> <button ng-click="removeExcludeSubgroup(subgroupIndex, $index)">Remove</button>
+                           </div>
+                       </ul>
+                       Asset Paths: <button ng-click="addPath($index)">Add New</button>
+                       <ul>
+                           <div class="assetPaths" ng-repeat="path in subgroup.paths track by $index">
+                               <input type="text" ng-model="subgroup.paths[$index]"> <button ng-click="removePath(subgroupIndex, $index)">Remove</button>
+                           </div>
+                       </ul>
+
+                       <button ng-click="addSubgroup($index)">Add New Subgroup</button>
+
+                       <display-subgroups ng-if="subgroup.subgroups && subgroup.subgroups.length > 0" data="subgroup.subgroups">
+                       </display-subgroups>
+
+               </div>
+           </div>
+
+
+       </div>
+
+
+       </ul>
+
+   </div>
+</div>

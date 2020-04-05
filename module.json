@@ -1,0 +1,11 @@
+{
+  "id": "id_EBDExtenderPatcher",
+  "name": "EBD Extender",
+  "author": "Piranha91",
+  "version": "0.1",
+  "released": "",
+  "updated": "3/30/2020",
+  "description": "Extends the customization options for Everybody's Different Redone",
+  "requires": [],
+  "moduleLoader": "default"
+}

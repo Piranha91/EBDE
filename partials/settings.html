@@ -1,0 +1,67 @@
+
+
+<h2>EBD Extender</h2>
+
+<section>
+    <ignore-plugins patcher-id="id_EBDExtenderPatcher"></ignore-plugins>
+</section>
+
+<section>
+	<div>
+    <input type="checkbox" ng-model="settings.id_EBDExtenderPatcher.changeHeight" />
+    <span>Change Height</span>
+    <br>
+	<input type="checkbox" ng-model="settings.id_EBDExtenderPatcher.changeHeadparts" />
+    <span>Change Headparts</span>
+    <br>
+	<input type="checkbox" ng-model="settings.id_EBDExtenderPatcher.changeTextures" />
+    <span>Change NPC Textures</span>
+    <br>
+    <input type="checkbox" ng-model="settings.id_EBDExtenderPatcher.changeTextures" />
+    <span>Change NPC Meshes</span>
+    <br>
+    <input type="checkbox" ng-model="settings.id_EBDExtenderPatcher.changeNPCsWithWNAM" />
+    <span>Overwrite NPC WNAM records</span>
+    <br>
+    <input type="checkbox" ng-model="settings.id_EBDExtenderPatcher.editHeadPartTextures" />
+    <span>Edit NPC headparts to use new textures for consistency with body textures</span>
+    <br>
+	<input type="checkbox" ng-model="settings.id_EBDExtenderPatcher.changeFemaleAnimations" />
+    <span>Change Female Animations</span>
+    <br>
+	<input type="checkbox" ng-model="settings.id_EBDExtenderPatcher.enableConsistency" />
+    <span>Enable Consistency</span>
+    <br>
+    <input type="checkbox" ng-model="settings.id_EBDExtenderPatcher.displayAssetPackAlerts" />
+    <span>Display popup alerts with important messages from Asset Settings Packs</span>
+    <br>
+
+        <input type="checkbox" ng-model="ShowAssetPackSection" />
+        <span>Show Asset Pack Configurations</span>
+        <br>
+        <div ng-show=ShowAssetPackSection>
+            <hr>
+            <div class="group" ng-repeat="AssetPackSetting in settings.id_EBDExtenderPatcher.assetPackSettings track by $index">
+
+                <span class="input-label">Group Name</span>
+                <input type="text" ng-model="settings.id_EBDExtenderPatcher.assetPackSettings[$index].groupName"> <button ng-click="saveAssetPackSettings(settings.id_EBDExtenderPatcher.assetPackSettings[$index])">Save</button>
+                <br>
+                <span class="input-label">Gender</span>
+                <select ng-model="settings.id_EBDExtenderPatcher.assetPackSettings[$index].gender" ng-options="x for x in genderOptions" />
+                <br>
+                <span> </span>
+                <input type="checkbox" ng-model="settings.id_EBDExtenderPatcher.assetPackSettings[$index].displayAlerts" />
+                <span>Display alerts from this pack</span>
+                <br>
+                <span class="input-label">Alert to show: </span>
+                <input type="text" ng-model="settings.id_EBDExtenderPatcher.assetPackSettings[$index].userAlert">
+                <br>
+                <display-subgroups data="settings.id_EBDExtenderPatcher.assetPackSettings[$index].subgroups"></display-subgroups>
+                <button ng-click="addSubgroupTop($index)">Add New Subgroup</button>
+                <br>
+
+            </div>
+            <button ng-click="newAssetPackSettings()">New Asset Pack Settings</button>
+    </div>
+</section>
+

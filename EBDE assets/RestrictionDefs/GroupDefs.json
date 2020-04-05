@@ -1,0 +1,24 @@
+[
+  
+      {
+        "name": "humanoid_NonVamp",
+        "entries": ["NordRace", "BretonRace", "DarkElfRace", "HighElfRace", "ImperialRace", "OrcRace", "RedguardRace", "WoodElfRace", "SnowElfRace", "ElderRace"]
+      },
+	  {
+		"name": "humanoidVampire",
+        "entries": ["NordRaceVampire", "BretonRaceVampire", "DarkElfRaceVampire", "HighElfRaceVampire", "ImperialRaceVampire", "OrcRaceVampire", "RedguardRaceVampire", "WoodElfRaceVampire", "SnowElfRaceVampire", "ElderRaceVampire"]
+	  },
+	  {
+        "name": "humanoid",
+        "entries": ["NordRace", "BretonRace", "DarkElfRace", "HighElfRace", "ImperialRace", "OrcRace", "RedguardRace", "WoodElfRace", "SnowElfRace", "ElderRace", "NordRaceVampire", "BretonRaceVampire", "DarkElfRaceVampire", "HighElfRaceVampire", "ImperialRaceVampire", "OrcRaceVampire", "RedguardRaceVampire", "WoodElfRaceVampire", "SnowElfRaceVampire", "ElderRaceVampire"]
+      },
+	  {
+        "name": "elven",
+        "entries": ["DarkElfRace", "HighElfRace", "WooddElfRace", "DarkElfRaceVampire", "HighElfRaceVampire", "WoodElfRaceVampire", "SnowElfRace", "SnowElfRaceVampire"]
+      },
+	  {
+        "name": "elder",
+        "entries": ["ElderRace", "ElderRaceVampire"]
+      }
+
+]
